@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6eb0e03a-5779-47bb-8043-ae3c88e36638" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6eb0e03a-5779-47bb-8043-ae3c88e36638" name="Changes" comment="add scaled simple window example">
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,14 +99,27 @@
       <option name="presentableId" value="Default" />
       <updated>1729609398236</updated>
       <workItem from="1729609399552" duration="408000" />
-      <workItem from="1729621444014" duration="3654000" />
+      <workItem from="1729621444014" duration="3989000" />
     </task>
+    <task id="LOCAL-00001" summary="add scaled simple window example">
+      <option name="closed" value="true" />
+      <created>1729628142098</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729628142098</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add scaled simple window example" />
+    <option name="LAST_COMMIT_MESSAGE" value="add scaled simple window example" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PySimpleGUI_YouTube_Tutorial$main.coverage" NAME="main Coverage Results" MODIFIED="1729627955698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PySimpleGUI_YouTube_Tutorial$main.coverage" NAME="main Coverage Results" MODIFIED="1729628340095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
