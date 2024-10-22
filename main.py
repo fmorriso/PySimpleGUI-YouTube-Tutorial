@@ -28,6 +28,6 @@ def display_simple_window() -> None:
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    msg = f'Python version {get_python_version()}'
+    msg = f'Python version {get_python_version()} and PySimpleGUI version {get_pysimplegui_version()}'
     print(msg)
     display_simple_window()
