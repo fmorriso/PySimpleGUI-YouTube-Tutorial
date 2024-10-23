@@ -22,8 +22,11 @@ def display_simple_window() -> None:
     window = sg.Window(title, layout, size=(settings.scaled_width, settings.scaled_height))
     while True:
         event, values = window.read()
+        # print(f'{event==sg.WIN_CLOSED}')
         # if event == sg.WIN_CLOSED or event == 'Exit':
-        if event in (None, 'Exit'):
+        # NOTE: it appears tht sg.WIN_CLOSED is the same as None
+        if event in (sg.WIN_CLOSED, None, 'Exit'):
+            # print(f'{event=}, {sg.WIN_CLOSED=}')
             break
     window.close()
     print('end simple window demo')
