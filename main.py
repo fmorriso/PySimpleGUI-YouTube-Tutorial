@@ -16,7 +16,7 @@ def display_simple_window() -> None:
     layout = [
         [sg.Text(f'Hello PySimpleGUI using Python {get_python_version()}')],
     ]
-    settings = Settings()
+    settings = Settings(0.8)
     print(f'{settings=}')
     title: str = f'PySimpleGUI version {get_pysimplegui_version()}'
     window = sg.Window(title, layout, size=(settings.scaled_width, settings.scaled_height))
