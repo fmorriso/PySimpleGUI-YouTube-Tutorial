@@ -15,7 +15,8 @@ def get_pysimplegui_version() -> str:
 def display_simple_window() -> None:
     layout = [
         [sg.Text(f'Hello PySimpleGUI using Python {get_python_version()}',
-                 text_color='white', background_color='red', font='"Courier New" 20 bold')],
+                 text_color='white', background_color='#880000', font='"Courier New" 20 bold',
+                 grab=True)],
     ]
     settings = Settings(0.667)
     print(f'{settings=}')
