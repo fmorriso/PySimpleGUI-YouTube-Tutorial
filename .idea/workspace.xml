@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6eb0e03a-5779-47bb-8043-ae3c88e36638" name="Changes" comment="add color and font information">
+    <list default="true" id="6eb0e03a-5779-47bb-8043-ae3c88e36638" name="Changes" comment="try #rrggbb color string for background color">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,8 +85,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.23339.19" />
-        <option value="bundled-python-sdk-0029f7779945-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.23339.19" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.23726.102" />
+        <option value="bundled-python-sdk-5e1850174b45-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.23726.102" />
       </set>
     </attachedChunks>
   </component>
@@ -103,6 +103,7 @@
       <workItem from="1729649375160" duration="1106000" />
       <workItem from="1729814344351" duration="651000" />
       <workItem from="1729859322630" duration="1103000" />
+      <workItem from="1729897383749" duration="858000" />
     </task>
     <task id="LOCAL-00001" summary="add scaled simple window example">
       <option name="closed" value="true" />
@@ -160,7 +161,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729814979688</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="try #rrggbb color string for background color">
+      <option name="closed" value="true" />
+      <created>1729897621118</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1729897621118</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,9 +182,10 @@
     <MESSAGE value="add debug code and comment it out" />
     <MESSAGE value="change screen percentage to 80%" />
     <MESSAGE value="add color and font information" />
-    <option name="LAST_COMMIT_MESSAGE" value="add color and font information" />
+    <MESSAGE value="try #rrggbb color string for background color" />
+    <option name="LAST_COMMIT_MESSAGE" value="try #rrggbb color string for background color" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PySimpleGUI_YouTube_Tutorial$main.coverage" NAME="main Coverage Results" MODIFIED="1729814925452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PySimpleGUI_YouTube_Tutorial$main.coverage" NAME="main Coverage Results" MODIFIED="1729905957756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
