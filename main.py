@@ -1,7 +1,7 @@
 import sys
 import PySimpleGUI as sg
 
-from settings import Settings
+from gui_settings import GuiSettings
 
 
 def get_python_version() -> str:
@@ -18,7 +18,7 @@ def display_simple_window() -> None:
                  text_color='white', background_color='#880000', font='"Courier New" 20 bold',
                  grab=True)],
     ]
-    settings = Settings(0.667)
+    settings = GuiSettings(0.667)
     print(f'{settings=}')
     title: str = f'PySimpleGUI version {get_pysimplegui_version()}'
     window = sg.Window(title, layout, size=(settings.scaled_width, settings.scaled_height), resizable=True, background_color='white')
